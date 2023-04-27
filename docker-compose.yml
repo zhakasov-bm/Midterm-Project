@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  go:
+    build: ./go
+    restart: always
+    ports:
+      - 8081:80
